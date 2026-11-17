@@ -1,16 +1,20 @@
  .container{
         background-color:blue;
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         flex-wrap: wrap;
-        width: 500px;
+        justify-content: center;
+        align-items: ;
         height: 750px;
+        width: 300px;
+     
+    
         
     }
  
  .container div {
   background-color: yellow;
-  width: 100px;
+  width: 50px;
   margin: 10px;
   padding: 10px;
   text-align: center; 
