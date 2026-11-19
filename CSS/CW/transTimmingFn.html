@@ -2,38 +2,39 @@
 <html>
 <head>
 <style> 
+body{
+    margin:18px;
+}
 div {
-  width: 100px;
-  height: 50px;
-  background: red;
-  color: white;
-  font-weight: bold;
-  transition: width 2s;
-  transition-delay: 1s;
+  width: 500px;
+  height: 300px;
+  background: green;
+  transition-property: width;
+  transition-duration: 10s;
+  
 }
 
-#div1 {transition-timing-function: linear;}
-#div2 {transition-timing-function: ease;}
-#div3 {transition-timing-function: ease-in;}
-#div4 {transition-timing-function: ease-out;}
-#div5 {transition-timing-function: ease-in-out;}
+#div{transition-timing-function: ease;}
 
 div:hover {
-  width: 300px;
+  width: 100px;
+  height: 200px;
+  background:#667eea;
+  border: solid black;
+  border-radius: 10%;
+  border-style: outset;
+  border-color: aqua;
+  transform: rotate(180deg);
+  translate: 10px;
+
+  
 }
 </style>
 </head>
 <body>
 
-<h1>The transition-timing-function Property</h1>
 
-<div id="div1">linear</div>
-<div id="div2">ease</div>
-<div id="div3">ease-in</div>
-<div id="div4">ease-out</div>
-<div id="div5">ease-in-out</div>
-
-<p>Hover over the div elements above, to see the different transition effects.</p>
+<div>DIV</div>
 
 </body>
 </html>
